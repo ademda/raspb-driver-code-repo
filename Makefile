@@ -1,4 +1,4 @@
-obj-m += heat_sensor.o
+obj-m += heat_sens_dev.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
